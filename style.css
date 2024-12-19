@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sticky Navigation Bar */
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .sticky-nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sticky-nav .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sticky-nav .menu li {
+    display: inline;
+  }
+  
+  .sticky-nav .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Featured Section */
+  .featured {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .featured h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .featured .featured-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .featured .card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials .testimonial {
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  /* Contact Form */
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  footer .quick-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .newsletter input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  footer .newsletter button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }  
